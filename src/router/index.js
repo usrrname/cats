@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Cats from '@/components/Cats'
 import Landing from '@/components/Landing'
 import Tiddl from '@/components/Tiddl'
+import Process from '@/components/Process'
 
 Vue.use(Router)
 
@@ -11,6 +12,11 @@ export default new Router({
     path: '/',
     name: 'App',
     component: Landing
+  },
+  {
+    path: '/process',
+    name: 'process',
+    component: Process
   },
   {
     path: '/cats',
