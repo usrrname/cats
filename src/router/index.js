@@ -4,6 +4,7 @@ import Cats from '@/components/Cats'
 import Landing from '@/components/Landing'
 import Tiddl from '@/components/Tiddl'
 import Process from '@/components/Process'
+import Story from '@/components/Story'
 
 Vue.use(Router)
 
@@ -27,6 +28,11 @@ export default new Router({
     path: '/tiddl',
     name: 'tiddl',
     component: Tiddl
+  },
+  {
+    path: '/about',
+    name: 'story',
+    component: Story
   }
   ]
 })
