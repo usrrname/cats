@@ -83,7 +83,7 @@
                 <a href="https://catbluemke.com" target="_blank">Cat Bluemke</a>
               </li>
               <li>
-                <a href="" target="_blank" class="disabled">Jonathan Carroll</a>
+                <span>Jonathan Carroll</span>
               </li>
               <li>
                 <a href="https://jennifer-chan.com" target="_blank">Jennifer Chan</a>
