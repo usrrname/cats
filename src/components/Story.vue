@@ -1,11 +1,13 @@
 <template>
-    <div>
+    <div class="container">
+        <div class="row">
         <section>
-            <h3 class="display-4">Our Team</h3>
-            <p>A little bit of art, a little bit of “science”. 
-We’re four artists taking user research/testing approach to making life for cats better.
-</p>
+            <img src="@/assets/img/team.png" width="90%">
+            <p class='lead'>A little bit of art, a little bit of “science”. 
+            We’re four artists taking user research/testing approach to making life for cats better.
+            </p>
         </section>
+    </div>
     </div>
 </template>
 <script>

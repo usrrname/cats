@@ -6,7 +6,8 @@
   :paginationEnabled="true" class="row">
       <slide class="vue-carousel-slide" data-index="0">
       <img src='@/assets/img/velizar-ivanov-540528-unsplash.jpg'>
-      <button type="button" class="btn btn-outline-light"><router-link to="/tiddl">{{cta2}}</router-link></button>
+      <button type="button" class="btn btn-outline-light">
+        <router-link to="/tiddl">{{cta2}}</router-link></button>
       </slide>
       <slide class="vue-carousel-slide" data-index="1"> <button type="button" class="btn btn-outline-light"><router-link to="/process">{{cta1}}</router-link></button>
       <img src='@/assets/img/ferenc-horvath-461706-unsplash.jpg'>
@@ -51,7 +52,6 @@
   </div>
 </div>
 </template>
-
 <script>
 import { Carousel, Slide } from 'vue-carousel'
 export default {
