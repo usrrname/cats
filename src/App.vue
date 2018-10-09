@@ -3,7 +3,7 @@
 <!-- menu -->
 <nav class="navbar navbar-default flex-sm-column flex-md-row flex-lg-row" role="navigation">
 <!-- Brand and toggle get grouped for better mobile display -->
-<ul class="nav align-content-start flex-sm-nowrap flex-md-wrap flex-lg-wrap">
+<ul class="nav justify-content-between flex-sm-nowrap flex-md-nowrap flex-lg-wrap">
 <li class="btn-group" role="group">
   <button type="button" class="btn btn-default"><router-link to="/">Home</router-link></button>
 </li>
@@ -16,11 +16,11 @@
 <li class="btn-group" role="group">
 <button type="button" class="btn btn-default" id="appBrand"><router-link to="/tiddl">Tiddl</router-link></button>
 </li>
+</ul>
+<ul class="nav navbar-right flex-sm-row flex-md-nowrap justify-content-around flex-md-row flex-lg-row flex-lg-wrap">
 <li class="btn-group" role="group">
   <button type="button" class="btn btn-default"><router-link to="/about">Our Story</router-link></button>
 </li>
-</ul>
-<ul class="nav navbar-right flex-lg-column flex-sm-wrap flex-sm-row flex-md-nowrap flex-lg-nowrap">
 <li class="btn-group" role="group">
   <button type="button" class="btn btn-default"><router-link to="/donate">Donate</router-link></button>
 </li>
@@ -30,7 +30,7 @@
 <!-- Footer -->
 <footer class="page-footer font-small pl-5 pt-6">
     <!-- Footer Links -->
-    <div class="container-fluid text-center text-md-left">
+    <div class="container-fluid text-md-left text-sm-left">
 
       <!-- Grid row -->
       <div class="row">
@@ -50,7 +50,7 @@
         <hr class="clearfix w-100 d-md-none pb-3">
 
         <!-- Grid column -->
-        <div class="col-md-3 mb-md-0 mb-3">
+        <div class="col-sm-4 col-md-2 mb-md-0 mb-3">
 
             <!-- Links -->
 
@@ -70,7 +70,7 @@
           <!-- Grid column -->
 
           <!-- Grid column -->
-          <div class="col-md-3 mb-md-0 mb-3">
+          <div class="col-sm-4 col-md-2 mb-md-0 mb-3">
 
             <!-- Links -->
             <h6 class="text-uppercase">Made By</h6>
@@ -92,7 +92,7 @@
 
           </div>
           <!-- Grid column -->
-       <div class="col-md-2 mb-md-0 mb-3">
+       <div class="col-sm-4 col-md-2 mb-md-0 mb-3">
          <div class="footerLogo"><img src="@/assets/img/icon_50px.png" width=40 height=40 ><span id="appBrand" class="display-md-4 pl-2"><router-link to="/tiddl">Tiddl</router-link></span></div>
          <div class="appbadge"><a href="https://itunes.apple.com/us/app/tiddl/id1435369864" target="_blank"><img src="@/assets/img/app-store-badge.png" width="100"></a></div>
         </div>
@@ -144,6 +144,9 @@ html, body{
   background-image: linear-gradient(#f68e74, #EEEEEE);
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
 }
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 #app {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -152,6 +155,7 @@ html, body{
   margin:0;
   padding-left:0;
   padding-right:0;
+  padding-bottom:0;
 }
 footer{
   margin-top:3.75em;
