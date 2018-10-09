@@ -69,7 +69,6 @@ export default {
   }
 }
 </script>
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .col-md-6{
   max-height:450px;

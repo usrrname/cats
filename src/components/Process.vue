@@ -16,14 +16,14 @@
         <article>
         <h4>Defining the Problem</h4>
         <a href="http://www.vetstreet.com/dr-marty-becker/are-laser-pointer-toys-really-safe-for-my-cat" target="_blank" class="inline">
-            <blockquote class="quote">" {{ quote }} "</blockquote></a>
+        <blockquote class="quote">" {{ quote }} "</blockquote></a>
         <p class="small">Ariel Mosenco, DVM, of the University of Pennsylvania School of Veterinary Medicine</p>
         <p class="inline">At any moment in time, up to <a :href='notes[0].link' target="_blank"> 40% of domestic cats</a> <span class="popover" v-if="showPopup1" transition="fade" v-on:mouseover="hoverInfo" v-on:mouseout="hoverOutInfo"><small> {{ notes[0].name }}</small></span>are experiencing depression due to boredom and lack of stimulation. Let's face it. Humans go to work; cats get bored.</p>
         </article>
 
         <article class="inline">
         <h4 class>Modus Operandi</h4>
-        <p>In her academic pamphlet, <a href='#' v-on:mouseover="hover" v-on:mouseout="hoverOut">The Companion Species Manifesto</a>,<span class="popover" v-if="showPopup2" transition="fade" v-on:mouseover="hoverInfo" v-on:mouseout="hoverOutInfo"><small> {{ notes[1].name }}</small></span>
+        <p>In her academic pamphlet, <a href='https://press.uchicago.edu/ucp/books/book/distributed/C/bo3645022.html' target="_blank" v-on:mouseover="hover" v-on:mouseout="hoverOut">The Companion Species Manifesto</a>,<span class="popover" v-if="showPopup2" transition="fade" v-on:mouseover="hoverInfo" v-on:mouseout="hoverOutInfo"><small> {{ notes[1].name }}</small></span>
         Donna Harraway explores the coevolution of human and non-human domesticated animals. 
         She deconstructs the boundaries between humans and animals, and demonstrates the extent to which domesticated animals and humans are intimately entangled with each other. Harraway’s companion species trope enables us to rethink this entanglement in a more refined way: instead of thinking  the human relationship to pets as  ownership or guardianship, we could think of it as a  species-specific moral relation.
         <br><br>Put more succinctly, this relation can be thought through reworking animal trainer and philosopher Vicki Hearne’s dictum on dogs: <i>if I have cat, my cat has a human.</i></p>
@@ -33,7 +33,9 @@
         <h4>Real User Personas</h4>
         <p>The UX process often involves the creation of user personas who represent a target market segment. To get as close to reality we surveyed 24 cats on their preferences.</p>
         
-        <button type="button" class="btn btn-default"><router-link to="/cats">LEARN ABOUT OUR USERS</router-link></button>
+        <li class="btn-group" role="group">
+        <button type="button" class="btn btn-default"><router-link to="/cats">Learn About Our Users</router-link></button>
+        </li>
 
         <h4 class="display-md-4">Four Legs First</h4>
         <p>Many products on the market are geared towards cat owners as users. In our process we tried to think about cats as users and cat owners as secondary agents.</p>
@@ -82,7 +84,7 @@ export default {
          notes: [
             { name : 'Nicholas Dodman, director of the Tufts University animal behaviour clinic',
             link : 'https://www.readersdigest.ca/home-garden/pets/4-ways-cheer-depressed-cat/' }, 
-            { name :'Harray, Donna. . The Companion Species Manifesto: Dogs, People, and Significant Otherness, Prickly Paradigm Press, NY, 2003.53.', link : ''},
+            { name :'Haraway, Donna. . The Companion Species Manifesto: Dogs, People, and Significant Otherness, Prickly Paradigm Press, NY, 2003.53.', link : ''},
             { name : 'Liao, Sharon. 4 Ways To Cheer Up A Depressed Cat” Readers Digest Canada. 2016.',
             link : 'https://www.readersdigest.ca/home-garden/pets/4-ways-cheer-depressed-cat/'},
             { name: 'Snowdon, Teie & Savage. ‘Cats Prefer Species Appropriate Music.’ Applied Animal Behaviour Science. 166 (2015) 106-11',

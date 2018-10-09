@@ -11,7 +11,7 @@
     <div class="col-sm-4 flex-sm-column card" v-for="(item, i) in cats" :item="item" :key="i">
       <div class="portrait justify-content-around">
           <img class="img-circle" :src="item.photo"></div>
-          <section>
+        <section>
           <p class="caption">{{ item.name }}, {{ item.age }} , {{item.sex}}</p>
           <p class="small align-self-start">{{ item.type }}</p>
         </section>
@@ -26,10 +26,18 @@ export default {
   name: 'cats',
   data () {
     return {
-      cats:[]
+      cats:[],
+    loadIt: false
     }
   },
+  components: {
+  xAsyncTest(resolve) {
+			console.log("Loading async component...")
+			setTimeout(() => resolve(asyncComponent), 4000)
+		}
+  },
   mounted () {
+    this.loadIt!=loadIt
     this.getCats()
   },
   methods: {

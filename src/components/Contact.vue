@@ -34,5 +34,29 @@ label, input, textarea{
 button{
     margin-top: 0.5em;
 }
+.glyphicon-refresh {
+  -webkit-animation: spinIt 1.5s infinite linear;
+          animation: spinIt 1.5s infinite linear;
+}
+@-webkit-keyframes spinIt {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+            transform: rotate(359deg);
+  }
+}
+@keyframes spinIt {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+            transform: rotate(359deg);
+  }
+}
 
 </style>
