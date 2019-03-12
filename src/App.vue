@@ -64,6 +64,9 @@
               <li>
                 <a href="https://brandscape.club" target="_blank">The Brandscape</a>
               </li>
+              <li>
+                <a href="http://spek.work/" target="_blank">spekwork</a>
+              </li>
             </ul>
 
           </div>
@@ -80,13 +83,13 @@
                 <a href="https://catbluemke.com" target="_blank">Cat Bluemke</a>
               </li>
               <li>
-                <a href="https://postcapitalist.club" target="_blank">Jonathan Carroll</a>
+                <a href="http://spek.work/" target="_blank">Jonathan Carroll</a>
               </li>
               <li>
                 <a href="https://jennifer-chan.com" target="_blank">Jennifer Chan</a>
               </li>
               <li>
-                <a href="https://precariatcontent.com" target="_blank">Precariat Content</a>
+                <a href="https://benmccarthy.work" target="_blank">Ben McCarthy</a>
               </li>
             </ul>
 
@@ -137,12 +140,20 @@ a:hover{
 }
 html, body{
   max-width:100%;
-  height: auto;
+  height: 100%;
   margin: 0px;
   padding: 0px;
-  background-color: #f68e74;
-  background-image: linear-gradient(#f68e74, #EEEEEE);
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+a, a:link, a:visited{
+  font-weight:400;
+  color:#f68e74;
+  text-decoration:none;
+}
+a:hover{
+  text-decoration:none;
+  font-weight:bold;
+  color: blue;
 }
 *, *:before, *:after {
   box-sizing: inherit;

@@ -6,7 +6,7 @@
             We are not a business. 
         <br>Your support makes a huge difference!</h2>
         <p>Cat just finished grad school.</p>
-        <p>Jen just got laid off from tech support.</p>
+        <p>Jen has been laid off twice.</p>
         <p>Ben teaches sessionally.</p>
         <p>Jon juggles many precarious freelance gigs.</p>
         <p>This website and tiddl was created with the generous support of a commission from Eastern Bloc and the Canada Council for the Arts.</p>
