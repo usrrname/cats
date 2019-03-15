@@ -7,7 +7,7 @@
                     <p>We are pretty good at responding to emails.</p>
                 </div>
                 <div class="col-md-6">
-                <form method="POST" action="https://formspree.io/jen@postcapitalist.club">
+                <form method="POST" action="https://formspree.io/jennifer7chan@gmail.com">
                 <label for="email">Email</label>
                 <input type="email" name="email" placeholder="Your email">
                 <label for="message">Message</label>
