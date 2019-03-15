@@ -3,8 +3,10 @@
     <div class="row">
         <div class="col-md-12">
         <h2 class="page-header">
-            We are not a business. 
-        <br>Your support makes a huge difference!</h2>
+            We are not a business.
+            <br>Your support makes a huge difference!
+        </h2>
+        <hr><br>
         <p>Cat just finished grad school.</p>
         <p>Jen has been laid off twice.</p>
         <p>Ben teaches sessionally.</p>
@@ -19,7 +21,7 @@
         </form>
         </div>
         </div>
-    </div>
+        </div>
 </template>
 
 <script>
