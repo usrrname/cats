@@ -1,10 +1,10 @@
 # ifcatsneedart
 
-> A Vue.js project
+> A Vue.js Vue-cli project
 
 ## Build Setup
 
-``` bash
+```bash
 # install dependencies
 npm install
 
@@ -28,3 +28,6 @@ npm test
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+Actual site is deployed on NearlyFreeSpeech
+I blogged about it [here](https://dev.to/jenninat0r/hastily-deploying-a-node-app-on-nearlyfreespeechnet-mac-os-42l7)
