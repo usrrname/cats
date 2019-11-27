@@ -147,7 +147,7 @@
 <script>
 export default {
   name: "Process",
-  data() {
+  data () {
     return {
       q1: "What can cats do for fun when we’re not around?",
       q2: "Do cats need art?",
@@ -186,36 +186,36 @@ export default {
     };
   },
   methods: {
-    hover: function() {
+    hover: function () {
       let vm = this;
-      this.timer = setTimeout(function() {
+      this.timer = setTimeout(function () {
         vm.showPopover();
       }, 600);
     },
 
-    hoverOut: function() {
+    hoverOut: function () {
       let vm = this;
       clearTimeout(vm.timer);
-      this.timer = setTimeout(function() {
+      this.timer = setTimeout(function () {
         if (!vm.isInInfo) {
           vm.closePopover();
         }
       }, 200);
     },
-    hoverInfo: function() {
+    hoverInfo: function () {
       this.isInInfo = true;
     },
 
-    hoverOutInfo: function() {
+    hoverOutInfo: function () {
       this.isInInfo = false;
       this.hoverOut();
     },
 
-    showPopover: function() {
+    showPopover: function () {
       this.showPopUp = true;
     },
 
-    closePopover: function() {
+    closePopover: function () {
       this.showPopup = false;
     }
   }
@@ -255,4 +255,3 @@ button {
   z-index: 999;
 }
 </style>
-
